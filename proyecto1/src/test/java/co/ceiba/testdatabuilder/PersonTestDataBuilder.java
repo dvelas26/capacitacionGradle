@@ -16,7 +16,7 @@ public class PersonTestDataBuilder {
 	}
 	
 	public PersonTestDataBuilder withLastName(String lastName){
-		this.lastName = name;
+		this.lastName = lastName;
 		return this;
 	}
 	

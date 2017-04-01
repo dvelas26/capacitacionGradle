@@ -10,7 +10,7 @@ public class NotifyPersonService {
 	}
 	
 	public String notify(Person person){
-		String message = "Welcome "+ person.getName();
+		String message = "Welcome "+ person.getName()+person.getlastName();
 		return emailService.sendmail(message);
 	}
 }
